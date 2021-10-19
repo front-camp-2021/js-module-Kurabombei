@@ -1,1 +1,3 @@
-export const cutStrings = (arr = []) => {};
+export const cutStrings = (arr = []) => {
+
+};
