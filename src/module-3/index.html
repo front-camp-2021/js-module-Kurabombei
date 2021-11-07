@@ -8,6 +8,25 @@
 <body>
 <script>
 
+  class Component {
+
+    static keys = function () {
+      return 'keys';
+    }
+
+    constructor(id, title = '') {
+      console.log('id', id);
+      console.log('title', title);
+      this.id = id;
+      this.title = title;
+    }
+  }
+
+  const obj = new Component(1, 'Some title');
+
+  console.error(obj);
+
+
 </script>
 </body>
 </html>
