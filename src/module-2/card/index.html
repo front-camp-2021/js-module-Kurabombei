@@ -7,16 +7,19 @@
   <!-- font-family Montserrat -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="card-styles.css">
 </head>
 
 <body>
   <div id="root"></div>
 
+
   <script type="module">
-    import Card from './solution/index.js';
+    import Card from './index.js';
     import { products } from '../../fixtures/products.js'
 
     const card = new Card(products[0]);
+    console.log('it works');
 
     root.append(card.element);
   </script>
